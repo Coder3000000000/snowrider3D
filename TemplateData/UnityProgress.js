@@ -43,7 +43,7 @@ function UnityProgress(gameInstance, progress) {
 
     /*
     if (progress == 1) {
-        gameInstance.textProgress.innerHTML = 'Running, Please Wait.. <img src="' + rootPath + '/gears.gif" class="spinner" />';
+        gameInstance.textProgress.innerHTML = 'Running, Please Wait Tip: 67.. <img src="' + rootPath + '/gears.gif" class="spinner" />';
         gameInstance.progress.style.display = 'none';
     }
     */
