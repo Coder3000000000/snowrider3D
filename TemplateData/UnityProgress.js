@@ -29,11 +29,11 @@ function UnityProgress(gameInstance, progress) {
     gameInstance.progress.full.style.width = (100 * progress) + "%";
     gameInstance.progress.empty.style.width = (100 * (1 - progress)) + "%";
 
-    //gameInstance.textProgress.innerHTML = 'Loading - ' + Math.floor(progress * 1000) + '%' + ' <img src="' + rootPath + '/gears.gif" class="spinner" />';
+    //gameInstance.textProgress.innerHTML = 'Loading - 67 67 ' + Math.floor(progress * 1000) + '%' + ' <img src="' + rootPath + '/gears.gif" class="spinner" />';
 
     if(progress>= 0.9 && progress<1)
     {
-        gameInstance.textProgress.innerHTML = '100% - Running, Wait..';
+        gameInstance.textProgress.innerHTML = '100%  67 67 67 67 67 67 6 76 76 767 67- Running, Wait..';
         gameInstance.progress.style.display = 'none';
     }
     else
